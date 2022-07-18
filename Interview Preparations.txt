@@ -1,2 +1,33 @@
 =========================================================ES6 Features===================================================
+1. What is the difference between VAR,CONST & LET keywords ?
+VAR - variable can be reassigned with different types , dynamic by nature, scoped to global.
+CONST - block level scope, cannot reassigned once initialzed.
+LET - block level scope, can be reassigned with different types(if not used in Typescript, inside typescript it only allows same type reassigned)
+-------------------------------------------------
+2.How do you make VAR variable private ?
+ANS: by encapsulating in function.
+-------------------------------------------------
+3. Do we need to create properties while creating object in javascript?
+ANS: No , it is dynamic by nature hence properties can be added dynamically.
+-----------------------------------------------------------
+4.What is spread operator ?
+ANS: It is used to spread or unzip values from array or objects.
+example : let l = {...response};
+
+----------------------------------------------------------------
+5. How do you merge two Javascript objects ?
+ANS: using spread operators.
+let a= []; // assume array a has n data
+let b = []; // assume array b has n data
+let c ={...a,...b}
+----------------------------------------------
+6. What is REST operator ?
+ANS: alternative to arguments in previous version of JS.
+works same as params in C#.
+----------------------------------------------
+7. What is the usage of arrow functions in JS?
+JS callbacks doesn't support of calling "this".
+Arrow functions provides this feature along with simple usage.
+-----------------------------------------------
+
 
