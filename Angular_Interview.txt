@@ -25,3 +25,26 @@ There are 3 type of diretives
 3. event binding (view -> component)
 4. ngModel - two way binding (view/component -> component/view)
 --------------------------------------------------------------------
+6. What are the types of FORMS in Angular application ?
+1. Template driven : validation, template ref , bindings happen at HTML.
+2. ReactiveForms/Model Driven : Angular form object created in component, validations, bindings implemented in component level.
+-------------------------------------------------------------------------------------------
+7. What are Angular Validation classes ?
+-ng-touched: control tocuhed
+-ng-untouched : control not touched yet.
+-ng-pristine: value not modified. (it can be touched or untouched)
+-ng-dirty: value modified.(it happens when control touched )
+-ng-valid/invalid : will switch based on value.
+-----------------------------------------------------
+8. What is template ref# in Angualr ? 
+It is used to store angular object ref .
+example : 
+<form ngForm #myForm ="ngForm" > 
+--------------------------------------------
+9. How do you access template elements in component ?
+using ViewChild decorator.
+----------------------------------------------------
+
+
+
+
