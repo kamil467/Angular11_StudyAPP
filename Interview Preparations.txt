@@ -28,6 +28,26 @@ works same as params in C#.
 7. What is the usage of arrow functions in JS?
 JS callbacks doesn't support of calling "this".
 Arrow functions provides this feature along with simple usage.
------------------------------------------------
+-------------------------------------------------------------
+8. What is object destructuring in ES6 ?
+This is concept introduced in ES6 to extract specific properties from array or objects.
+examnple :
+let {a,b} = 
+{
+a:'AAA',
+b:'BBB',
+c:'CCC'
+}
+------------------------------------------------------------------------
+9. What is promise ?
+.They are part of ES6 specifications.
+.to preform async opertaions.
+. returns either resolve or reject.
+. to replace callback.
+--------------------------------------------------------------------
+10. What is async and await keywords in JS?
+They are extension of promises.
+allow us to code in async manner.
+-----------------------------------------------------------------
 
 
