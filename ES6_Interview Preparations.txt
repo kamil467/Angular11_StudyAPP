@@ -49,5 +49,28 @@ c:'CCC'
 They are extension of promises.
 allow us to code in async manner.
 -----------------------------------------------------------------
+11. What is default export ?
+There must be only one default export per module.
+-----------------------------------------------------------------
+12. What is webpack ?
+It is used for loading and bundling dependencies of javascript projects.
+In Angular it used during development process.
+-------------------------------------------------
+13. How webpack bundles CSS files ?
+by default it bundles only javascript files only.
+We use cssloaders to convert css files into javascript files and then using style-loader to extract css from converted javascript.
+----------------------------------------------------------------------
+14. What is any type in Typescript ?
+It is introduced for providing Var compatability in Typescript projects.
+---------------------------------------------------------------------------------
+15. How do you use jQuery syntaxes in Typescript project?
+each javascript frameworks expose type definition files and it is available in npm.
+we need to download type  def file for jQuery and used along with Typescript configuration.
+now typescript understand jQuery syntaxs.
+second thing for browser to understand jQuery - we need to downlaod jQuery lib files and load.
+------------------------------------------------------------------------------------
+
+
+
 
 
