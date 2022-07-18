@@ -1,5 +1,5 @@
 ------------------------------------------------------------Basics----------------------------------
-**1. What is component ?**
+1. What is component ?
 ANS: components are basic building blocks for Angular applications.
 --------------------------
 ###### 2. What is Module ?
@@ -19,4 +19,9 @@ There are 3 type of diretives
 2. Attributes - [ngModel], [formGroup],[formControlName],[routerLink] 
 3. Structural: *ngIf, *ngFor, *ngSwitch
 --------------------------------------------------------------------------
-###### 5. What are the type of 
+###### 5. What are the type of bindins available in Angualr ?
+1. property binding /input binding (view -> component)
+2. string interoplation ( component -> view)
+3. event binding (view -> component)
+4. ngModel - two way binding (view/component -> component/view)
+--------------------------------------------------------------------
