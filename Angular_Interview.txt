@@ -1,1 +1,21 @@
-
+------------------------------------------------------------Basics----------------------------------
+1. What is component ?
+ANS: components are basic building blocks for Angular applications.
+--------------------------
+2. What is Module ?
+ANS: Angular application must have atleast one Module, it is following module based development.
+Modules are logical boundary of angular app. each module can have multiple components , directives , services etc.
+--------------------------------------------------------------------------------
+3. What is boostrapping in Angualr ?
+This loading AppModule and root component for starting the angular application knows as boostrap.
+main.ts files - we can define which module should be AppModule or root modules.
+index file - we mention App module's boostrap component.
+-----------------------------------------------------------------------------
+4.What is directives ?
+This is an angular concepts which extends behvaior of HTML.
+basically components itself a directive.
+There are 3 type of diretives 
+1.Components.
+2. Attributes - [ngModel], [formGroup],[formControlName],[routerLink] 
+3. Structural: *ngIf, *ngFor, *ngSwitch
+--------------------------------------------------------------------------
