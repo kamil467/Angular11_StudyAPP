@@ -44,6 +44,22 @@ example :
 9. How do you access template elements in component ?
 using ViewChild decorator.
 ----------------------------------------------------
+10. How do you protect routes in Angular ?
+Implementing AuthGuard service. There is an interface CanActivate helps to protect the routes. 
+We need to create custom service which should implement this interface.
+--------------------------------------------------------------------------
+11. How do you unsubscribe an observable ?
+It is a two step process.
+1-> create a component level variable to hold the subscribtion.
+2-> assign subscribe outcome to this variable.
+3 -> use Ondestroy hooks to unsubcribe the subcription.
+-------------------------------------------------------------------------
+12. What is pipe in Angular ?
+It is an Angular concept which used in component template to transform the data.
+----------------------------------------------------------------------------
+
+
+
 
 
 
