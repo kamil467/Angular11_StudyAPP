@@ -83,6 +83,9 @@ true.
 18. What is BerhaviorSubject ?
 It is same as Subject but allows us to pass paraemter while instantiating it.
 ------------------------------------------------------------------------
+19. How do we find the number of subscribers for specific observable in Angualr ?
+We can use Chrome dev tool to insspect the dom . There is a node called Observers -> This will gives how many subscribers are there for this observable.
+------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
