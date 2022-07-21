@@ -72,7 +72,11 @@ It is a build process that will remove unused code from application.
 If we register the services via @NgModule that it cannot be tree shakable , It will be hard to determine whether the service is used or not.
 That is why from Angualr 6 they have introcuded another way to register the service using @injectable(root) -> now the services can be tree shaked.
 
-
+------------------------------------------------------------------
+16. How do you convert enter key act as submit button ?
+1-> convert button type to submit
+2 -> use form tag instead of div as container
+-------------------------------------------------------
 
 
 
