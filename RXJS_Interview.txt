@@ -1,0 +1,11 @@
+-----------------------------------------------------------
+1. What is observable ?
+It emits value over a period of time. consumer can subscribe to it.
+------------------------------------------------------------
+2. What is subject ?
+Subject class act as observer and obersavble that means we can feed the data into it and ask consumer to subscribe it.
+-----------------------------------------------------------------------
+3. What is memory leak problem ?
+If we observables are not properly unsubsribed after they no longer needed it will cause memory leak problem. Angular provides various lifecycle events for Components.
+We can use ngOnDestroy hooks to unsubscribe the obersvable.
+--------------------------------------
