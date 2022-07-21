@@ -77,6 +77,15 @@ That is why from Angualr 6 they have introcuded another way to register the serv
 1-> convert button type to submit
 2 -> use form tag instead of div as container
 -------------------------------------------------------
+17. What is the value of !null in javascript ?
+true.
+-----------------------------------------------
+18. What is BerhaviorSubject ?
+It is same as Subject but allows us to pass paraemter while instantiating it.
+------------------------------------------------------------------------
+
+
+
 
 
 
