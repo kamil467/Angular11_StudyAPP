@@ -92,6 +92,9 @@ We store observable value in parent tag and use alias to use it in inner html.
 There is a drawback of this approach is the observable must emit non-false value . If it is emits false value then whole parent won't get render.
 else part add ng-tenmplate ref of html portion.
 ------------------------------------------------------------------
+21. What is the use of ng-template ?
+It provides vitual parent container. It won't affect or change the structure of DOM.
+We call it as silent parent.
 
 
 
