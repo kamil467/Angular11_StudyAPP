@@ -5,7 +5,7 @@ ANS: DI system is integral part of Angular framework.
 ANS: Injector is responsible for creating and injecting services into angular application.
 When angular application bootstrapped , it creates two types of injector.
 1. Module injector - created for each module in angular app.
-2. Elements injector- created for every component.
+2. Elements injector- created for every component and destroyed when component destroyed.
 
 Angular maintains injector tree hierarchy similar to componenet tree.
 If any component expected dependency , first the request will send to attached component's injector. It will resolve if it is registered , otherwise the request 
@@ -21,5 +21,5 @@ We are registering in injector that for this DI token , injector supposed to pro
 ---------------------------------------------------------
 5. How do you create Singleton object in Angular ?
 decorate the service with providerIn as root.
-
+-------------------------------------------
 
