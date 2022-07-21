@@ -63,9 +63,9 @@ When component destroyed , the async pipe automatically unsubscribe the observab
 -------------------------------------------------------------------------------------
 14. What are the various ways that once can make service available to other components ?
 1. use element injector on consumer's compoenent -- > providers , componenet decorator.
-2. Use it appcomponent or parent component's element injector.
+2. Use it appcomponent or parent component's element injector- if we apply it on root component it will be singleton object.
 3. Target root in @injectable('root') of service , so it can be accessed by all as singleton object.
-4. use it @NgModule decorator's providers array
+4. use it @NgModule decorator's providers array - singleton object.
 ----------------------------------------------------------------------------------------
 
 
