@@ -95,6 +95,15 @@ else part add ng-tenmplate ref of html portion.
 21. What is the use of ng-template ?
 It provides vitual parent container. It won't affect or change the structure of DOM.
 We call it as silent parent.
+-----------------------------------------
+22. How do you pass JWT token in request ?
+1-> request header ->using header variable such as x-access-token:localStorage['token']
+2-> using cookies
+-------------------------------------------------------------------------
+23. How do you transform API response and your model in Angular ?
+using Map operator in RXJS.
+------------------------------------------------------------------
+
 
 
 
