@@ -103,7 +103,7 @@ We call it as silent parent.
 23. How do you transform API response and your model in Angular ?
 using Map operator in RXJS.
 ------------------------------------------------------------------
-
+If component or DOM destroyed in half way subscribing to observable then we should resubscribe it
 
 
 
