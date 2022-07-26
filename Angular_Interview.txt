@@ -104,6 +104,27 @@ We call it as silent parent.
 using Map operator in RXJS.
 ------------------------------------------------------------------
 If component or DOM destroyed in half way subscribing to observable then we should resubscribe it
+--------------------------------------------------------------------------------------------------------------
+24. What is HTTP_interceptors ?
+They are interface provided by angular to examine the current request and modify it.
+---------------------------------------------------------------------------------------
+25. What are the type of providers in Angular ?
+1) Regular Providers 
+2) Multi Provider - same DI token used for different instances.
+------------------------------------------------------------------------------------
+26. What are the type of injection tokens ?
+1) Type Token 
+2) String Token 
+3) Injection Token.
+----------------------------------------------------------------------
+27. Can we run custom code during Angular bootstrap process ?
+Yes, Angular exposing App_Initializer token service. By passing this token along with factory implementation in app module will enable us to execute the code during startup process.
+-------------------------------------------------------------------------------------------
+
+
+
+
+
 
 
 
