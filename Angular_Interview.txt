@@ -129,6 +129,9 @@ all unused codes will removed.
 This can be overridden  by implementing custom Error Handler in application.
 handleError method will be overridden.
 ----------------------------------------------------------------------------------------------
+30. What is Component Oriented Style in Angular ?
+There is a design principle called Container-Presentation Pattern which will help us further breakdown the feature componenets. so that the code can be managed.
+------------------------------------------------------------------------------------------------------------------
 
 
 
