@@ -124,7 +124,11 @@ Yes, Angular exposing App_Initializer token service. By passing this token along
 sourcemap files missing from prod builds - since they are being used in devtools for local debugging.
 vendor.js to integrated in main build for prod.
 all unused codes will removed.
-
+--------------------------------------------------------------------------
+29. How do you avoid Angular printing error messages in console ?
+This can be overridden  by implementing custom Error Handler in application.
+handleError method will be overridden.
+----------------------------------------------------------------------------------------------
 
 
 
