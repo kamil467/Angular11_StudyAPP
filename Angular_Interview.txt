@@ -120,6 +120,11 @@ They are interface provided by angular to examine the current request and modify
 27. Can we run custom code during Angular bootstrap process ?
 Yes, Angular exposing App_Initializer token service. By passing this token along with factory implementation in app module will enable us to execute the code during startup process.
 -------------------------------------------------------------------------------------------
+28. What is the difference between prod and debug build in Angualr ?
+sourcemap files missing from prod builds - since they are being used in devtools for local debugging.
+vendor.js to integrated in main build for prod.
+all unused codes will removed.
+
 
 
 
