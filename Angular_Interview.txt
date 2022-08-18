@@ -133,6 +133,12 @@ handleError method will be overridden.
 There is a design principle called Container-Presentation Pattern which will help us further breakdown the feature componenets. so that the code can be managed.
 A feature compoenent will be breakdown to two types of components --> 1) Container 2)Presentation
 ------------------------------------------------------------------------------------------------------------------
+31. How do you pass data from parent component to child componenet ?
+Using Input() decorator 
+------------------------------------------------------------------------
+32. How do you pass data from child componenet to parent component ?
+Using Output() decorator with Event Emitter()--child has to raise an event.
+---------------------------------------------------------------------------
 
 
 
