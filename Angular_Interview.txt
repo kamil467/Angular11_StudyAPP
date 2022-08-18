@@ -10,6 +10,8 @@ Modules are logical boundary of angular app. each module can have multiple compo
 This loading AppModule and root component for starting the angular application knows as boostrap.
 main.ts files - we can define which module should be AppModule or root modules.
 index file - we mention App module's boostrap component.
+Boostrap component section will be required only in root module not in feature modules.
+BrowserModule - the services registered in this modules are singleton scope hence this module should be included only in root module not in feature modules.
 -----------------------------------------------------------------------------
 ###### 4.What is directives ?
 This is an angular concepts which extends behvaior of HTML.
@@ -139,8 +141,35 @@ Using Input() decorator
 32. How do you pass data from child componenet to parent component ?
 Using Output() decorator with Event Emitter()--child has to raise an event.
 ---------------------------------------------------------------------------
-
-
+33. What is eager loading ?
+Loads all the components at once in Angular from the very beginning. this impact the performance.
+single bundle file.
+----------------------------------------------------------------------------
+34. What is lazy loading ?
+Load the components when it requires.
+We need to do following steps to implement it.
+a) Feature componenets must be grouped with feature modules. It means there will be other modules apart from root modules.
+b) define child routes for each modules.
+c) AppRoutes - load the modules as LoadChildren and import module file., AppRoutes will have only feature modules instead of components.
+It reduces the initial load.
+Bundling will generate seperate bundle for each modules in lazy loading.
+------------------------------------------------------------------------------------------------
+35 . How should we use eager loading and lazy loading ?
+We should follow hybrid approach . 
+We should not load everything eagrely and lazely alone.
+If we use eager--> this will impact the performance.
+If we use lazy alone - there is no point of using bundling.
+---------------------------------------------------------------------
+36. What is Pre-Loading ?
+Loading the lazy loaded modules asynchronously in the background while the user interacting the app.
+without preloading -- all lazy loaded modules will be downloaded on demand when user request.
+with preloading - user no need to wait for modules to be downloaded.
+We can override the preloading behavior - for eg: once pre loading kicked off - we can decide which module has to be preloaded.
+----------------------------------------------------------------------
+37. Components within modules is always visible to each other but they are not visible outside the module.
+If we want to use particular component accessible outside the module then we have to mark it by exporting the component.
+and cosumer module we will have to just import the module. when one module get imported into another module then all their public components
+are accessible in parent module.
 
 
 
