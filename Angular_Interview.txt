@@ -23,6 +23,8 @@ There are 3 type of diretives
 --------------------------------------------------------------------------
 ###### 5. What are the type of bindins available in Angualr ?
 1. property binding /input binding (view -> component)
+ - property binding : ( [property]="data")
+   
 2. string interoplation ( component -> view)
 3. event binding (view -> component)
 4. ngModel - two way binding (view/component -> component/view)
