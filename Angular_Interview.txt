@@ -22,7 +22,7 @@ There are 3 type of diretives
 3. Structural: *ngIf, *ngFor, *ngSwitch
 --------------------------------------------------------------------------
 ###### 5. What are the type of bindins available in Angualr ?
-1. property binding /input binding (view -> component)
+1. property binding
  - property binding : ( [property]="data")
    
 2. string interoplation ( component -> view)
