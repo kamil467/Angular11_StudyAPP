@@ -1,6 +1,6 @@
-1. How DI implemented in Angular ?
+### 1. How DI implemented in Angular ?
 ANS: DI system is integral part of Angular framework.
---------------------------------------------------
+#
 2. What is Injector ?
 ANS: Injector is responsible for creating and injecting services into angular application.
 When angular application bootstrapped , it creates two types of injector.
