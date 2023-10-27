@@ -178,7 +178,9 @@ Answer:
 - as an atrribute: eg: select: '[app-root]' => <div app-root></div>
 - as by class: eg select: '.app-root' => <div class="app-root"></div> 
 
+`select by ID won't work in Angular`
 
+#
 
 
 
