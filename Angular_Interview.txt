@@ -171,6 +171,12 @@ If we want to use particular component accessible outside the module then we hav
 and cosumer module we will have to just import the module. when one module get imported into another module then all their public components
 are accessible in parent module.
 
+#
+What are the various way of selecting elements(compoenent) in Angular ?
+Answer:
+- element itself : eg: select:'app-root'  this can be used in template like <app-root></app-root>
+- as an atrribute: eg: select: '[app-root]' => <div app-root></div>
+- as by class: eg select: '.app-root' => <div class="app-root"></div> 
 
 
 
