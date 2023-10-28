@@ -210,7 +210,14 @@ There are eight hooks are available.
 - ngAfterViewChecked: This lifecycle hook is executed after the component's view has been checked and is a good place to perform additional operations based on the component's view.
 - ngOnDestroy: This lifecycle hook is executed just before the component is destroyed and is a good place to perform cleanup operations for the component.
 
+ #
+ #### What is the difference between ngStyle and ngClass ?
+ Answer:
 
+ - ngStyle : to add style attribute to element.
+   eg: `<p [ngStyle]="{backgroundColor:red}"> </p>
+ - ngClass: to attach css classes to element.
+ eg: <p [ngClass]="{online:serverstatus === "active"}"> </p>
 
 
 
