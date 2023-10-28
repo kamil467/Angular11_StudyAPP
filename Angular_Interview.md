@@ -202,6 +202,14 @@ There are eight hooks are available.
 `
 @Input() prop: number = 0;`
 
+- ngOnInit: This lifecycle hook is executed after the component's constructor method and is a good place to perform initial setup for the component.
+- ngDoCheck: This lifecycle hook is executed during every change detection cycle and is a good place to perform custom change detection.
+- ngAfterContentInit: This lifecycle hook is executed after the component's content has been initialized and is a good place to perform additional setup for the component's content.
+- ngAfterContentChecked: This lifecycle hook is executed after the component's content has been checked and is a good place to perform additional operations based on the component's content.
+- ngAfterViewInit: This lifecycle hook is executed after the component's view has been initialized and is a good place to perform additional setup for the component's view.
+- ngAfterViewChecked: This lifecycle hook is executed after the component's view has been checked and is a good place to perform additional operations based on the component's view.
+- ngOnDestroy: This lifecycle hook is executed just before the component is destroyed and is a good place to perform cleanup operations for the component.
+
 
 
 
