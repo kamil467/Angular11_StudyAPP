@@ -194,8 +194,13 @@ Answer:
  import {Component, OnInit} from ‘@angular/core’;
    - use ngOnInit to load data from extenal service or consume other services.
 
+#
+#### What are the life-cycle hooks/events in Angular components ?
 
-
+There are eight hooks are available.
+- ngOnChanges: This lifecycle hook is executed whenever the component's `input` properties change. Please remember this will fire when component's input property changed not form or template input property.
+`
+@Input() prop: number = 0;`
 
 
 
