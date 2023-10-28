@@ -23,7 +23,7 @@ There are 3 type of diretives
 --------------------------------------------------------------------------
 ###### 5. What are the type of bindins available in Angualr ?
 1. property binding
- - property binding : ( [property]="data")
+ - property binding : ( [property]="data")  component to view
    
 2. string interoplation ( component -> view)
 3. event binding (view -> component)
@@ -183,6 +183,18 @@ Answer:
 `select by ID won't work in Angular`
 
 #
+what is the difference between ngOnInit and contructor ?
+
+Answer:
+   - Constructor should be used for initializing class instances . should not do actual work.
+   - Angular Dependency Injector (DI) analyse the constructor parameters.
+   - ngOnInit is a life cycle hook called by Angular to indicate that the Angular is done creating the component.
+   - ngOnInit does not take any parameter.
+   - In order to use OnInit we have to import it in the component class like this:
+import {Component, OnInit} from ‘@angular/core’;
+
+
+
 
 
 
