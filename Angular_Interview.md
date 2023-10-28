@@ -191,8 +191,8 @@ Answer:
    - ngOnInit is a life cycle hook called by Angular to indicate that the Angular is done creating the component.
    - ngOnInit does not take any parameter.
    - In order to use OnInit we have to import it in the component class like this:
-import {Component, OnInit} from ‘@angular/core’;
-
+ import {Component, OnInit} from ‘@angular/core’;
+   - use ngOnInit to load data from extenal service or consume other services.
 
 
 
